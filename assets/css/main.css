@@ -1,0 +1,172 @@
+
+.pricing-table{
+    
+    box-sizing: border-box;
+    display: flex;
+    margin: 180px 375px;
+    justify-content: center;
+}
+
+.pricing-table-card{
+    text-align:center;
+
+}
+
+.card-header{
+    position:absolute;
+    background-color: #fff;
+    height: 123px;
+    width: 123px;
+    display: inline-block;
+    clip-path: circle(50%); 
+    margin-top: -56px;
+    text-align: center;
+    margin-left: -59px;
+    padding: 30px 10px;
+}
+#table-card-two {
+    padding: 0 42px 0 42px;
+}
+.card-header-price{
+    font-size: 32px;
+    font-weight: 100;
+    color: #0099CC;
+    background-color: var(--white-color);
+    margin-top: -5px;
+}
+
+.card-header-text{
+    font-size: 16px;
+    color: #99a9b5;
+}
+
+.card-body{
+    height: 496px;
+    background-color:var(--white-color);
+}
+
+.card-image{
+    width: 348px;
+    height: 269px;
+    font-weight: 400;
+    padding: 125px 0;
+}
+.card-image-text{
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.card-body-heading{
+    padding-top: 25px;
+    font-size: 24px;
+    color: #5f727f;
+    font-weight: 100;
+
+}
+
+.card-body-table li{
+    font-size: 16px;
+    padding: 21px 0;
+    list-style: none;
+    color: #5f727f;
+  
+}
+
+
+.table-text{
+    background-color: #f4f6f7;
+}
+
+
+.card-body-submit{
+    display: inline-block;
+    text-decoration: none;
+    height: 40px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-size: 19px;
+    border-width: 1px;
+    border-style: ridge;
+    text-align: center;
+    padding: 11px 20px;
+}
+
+.blue {
+    color: #0099CC;
+    background-color:var(--white-color);
+}
+
+.violet{
+    background-color:#6c136f;
+    color: white;
+}
+
+.green{
+    background-color: var(--white-color);
+    color: #32ad1e;
+}
+.price {
+ color: #9e3d7a;
+ font-size: 32px;
+ font-weight: 100;
+}
+
+.card-header-new{
+    background-color:#2b2d3d;
+}
+
+.card-new {
+    width: 64px;
+    height: 65px;
+    font-size: 12px;
+    color: var(--white-color);
+    position: absolute;
+    z-index: 1;
+    float: left;
+    padding: 25px 20px;
+    margin-top: -13px;
+    margin-left: -13px;
+    background: url(/assets/images/newmark.png);
+    
+}
+
+#ocean{
+    background: url('/assets/images/ocean.png') top center / cover ;
+}
+
+
+#mountain{
+    background: url('/assets/images/mountain.png') top center / cover;
+
+}
+
+#forest{
+    background: url('/assets/images/forest.png') top center / cover ;
+}
+
+
+
+.text-body{
+    color: #b6c6c9;
+    font-size: 14px;
+}
+
+
+
+.card-body-title{
+    padding-bottom: 25px;
+    font-size: 14px;
+    color: #99a9b5;
+}
+
+
+
+
+.places-sub-btn:hover{
+    background-color: #6b136f;
+    color: #fff;
+    cursor: pointer;
+}
